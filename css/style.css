@@ -1,0 +1,10 @@
+/* custom text */
+* {
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+/* custom title h1 */
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
