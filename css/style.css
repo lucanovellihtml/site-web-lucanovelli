@@ -36,3 +36,28 @@ swiper-slide img {
     height: 100%;
     object-fit: cover;
 }
+
+/* animation logo loading */
+.animation-circolare {
+    animation-name: animazioneLogoCircolare;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes animazioneLogoCircolare {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+header,
+main,
+footer {
+    display: none;
+}
