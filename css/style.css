@@ -83,3 +83,96 @@ footer {
 #buttonBackToTop {
     display: none;
 }
+
+/* div custom section formation */
+.circle {
+    width: 125px;
+    height: 125px;
+    border: 10px solid;
+    border-radius: 50%;
+    margin: 0;
+    border-color: #17556f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle-title {
+    position: absolute;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-date-experience {
+    font-size: 12px;
+}
+
+span {
+    color: white;
+}
+
+.box-paragraph-formation {
+    align-items: center;
+}
+
+.circle-milano {
+    border-color: #17556f;
+}
+
+.circle-title-milano {
+    background-color: #17556f;
+}
+
+.circle-eni {
+    border-color: #19a136;
+}
+
+.circle-title-eni {
+    background-color: #19a136;
+
+}
+
+.circle-stage-vantea {
+    border-color: #e4e00a;
+}
+
+.circle-title-stage-vantea {
+    background-color: #e4e00a;
+
+}
+
+.circle-interroll {
+    border-color: #e76d08;
+}
+
+.circle-title-interroll {
+    background-color: #e76d08;
+
+}
+
+.custom-tooltip-milano {
+    background-color: #17556f;
+    color: white;
+}
+
+.custom-tooltip-eni {
+    background-color: #19a136;
+    color: white;
+}
+
+.custom-tooltip-interroll {
+    background-color: #e76d08;
+    color: white;
+}
+
+.custom-tooltip-milano,
+.custom-tooltip-eni,
+.custom-tooltip-interroll {
+    font-size: 15px;
+}
