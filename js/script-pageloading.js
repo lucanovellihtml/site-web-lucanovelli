@@ -4,4 +4,5 @@ setTimeout(() => {
     document.getElementById("header").style.display = "block";
     document.getElementById("main").style.display = "block";
     document.getElementById("footer").style.display = "block";
+    document.getElementById("buttonBackToTop").style.display = "block";
 }, 4000);
