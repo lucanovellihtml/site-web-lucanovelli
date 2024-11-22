@@ -121,11 +121,13 @@ span {
     align-items: center;
 }
 
-.circle-milano {
+.circle-milano,
+.circle-ospedale {
     border-color: #17556f;
 }
 
-.circle-title-milano {
+.circle-title-milano,
+.circle-title-ospedale {
     background-color: #17556f;
 }
 
@@ -156,7 +158,8 @@ span {
 
 }
 
-.custom-tooltip-milano {
+.custom-tooltip-milano,
+.custom-tooltip-ospedale {
     background-color: #17556f;
     color: white;
 }
@@ -173,7 +176,8 @@ span {
 
 .custom-tooltip-milano,
 .custom-tooltip-eni,
-.custom-tooltip-interroll {
+.custom-tooltip-interroll,
+.custom-tooltip-ospedale {
     font-size: 15px;
 }
 
