@@ -1,4 +1,4 @@
-const swiperEl = document.querySelector('swiper-container')
+const swiperEl = document.getElementById("swiperProject");
 Object.assign(swiperEl, {
     slidesPerView: 1,
     spaceBetween: 10,
