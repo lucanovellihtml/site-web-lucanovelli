@@ -176,3 +176,12 @@ span {
 .custom-tooltip-interroll {
     font-size: 15px;
 }
+
+.horizontal-row {
+    display: inline-block;
+    align-self: stretch;
+    height: 2px;
+    width: 100px;
+    background-color: currentcolor;
+    opacity: .25;
+}
