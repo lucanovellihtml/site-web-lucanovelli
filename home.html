@@ -156,7 +156,7 @@
                     <p class="text-center m-0">Selezione il progetto da visionare</p>
 
                     <!-- swiper -->
-                    <swiper-container class="mySwiper" init="false">
+                    <swiper-container id="swiperProject" class="mySwiper" init="false">
 
                         <!-- project one -->
                         <swiper-slide>
@@ -377,7 +377,7 @@
 
         </section>
 
-        <!-- section formation -->
+        <!-- section experience -->
         <section class="container-xl py-5">
 
             <div class="row">
@@ -391,223 +391,326 @@
 
             <div class="row py-4">
 
-                <!-- title -->
-                <div class="col-12 text-center pb-4">
-                    <a href="https://www.vantea.com/">
-                        <h3>Vantea SMART SPA</h3>
-                    </a>
-                </div>
+                <swiper-container id="swiperExperience" class="mySwiper">
 
-                <!-- box DXC -->
-                <div class="col-12 d-flex justify-content-center gap-2">
+                    <!-- swiper slide vantea smart -->
+                    <swiper-slide class="swiper-experience">
 
-
-                    <div>
-
-                        <!-- date -->
-                        <div class="text-center box-date-experience">
-                            <p class="p-0">Mag 2023 - Presente</p>
+                        <!-- title -->
+                        <div class="col-12 text-center pb-4">
+                            <a href="https://www.vantea.com/">
+                                <h3>Vantea SMART SPA</h3>
+                            </a>
                         </div>
 
-                        <!-- box circle -->
-                        <div class="d-flex flex-column align-items-center">
+                        <!-- box DXC -->
+                        <div class="col-12 d-flex justify-content-center gap-2">
 
-                            <!-- circle -->
-                            <div class="circle circle-milano">
-                                <h2 class="circle-title circle-title-milano">
-                                    <span>IAM</span>
-                                </h2>
+
+                            <div>
+
+                                <!-- date -->
+                                <div class="text-center box-date-experience">
+                                    <p class="p-0">Mag 2023 - Presente</p>
+                                </div>
+
+                                <!-- box circle -->
+                                <div class="d-flex flex-column align-items-center">
+
+                                    <!-- circle -->
+                                    <div class="circle circle-milano">
+                                        <h2 class="circle-title circle-title-milano">
+                                            <span>IAM</span>
+                                        </h2>
+                                    </div>
+
+                                    <!-- vertical line -->
+                                    <div class="d-flex text-center" style="height: 200px;">
+                                        <div class="vr"></div>
+                                    </div>
+
+                                </div>
+
                             </div>
 
-                            <!-- vertical line -->
-                            <div class="d-flex text-center" style="height: 200px;">
-                                <div class="vr"></div>
-                            </div>
+                            <!-- box paragraph -->
+                            <div class="text-center mt-5">
 
-                        </div>
+                                <!-- box paragraph -->
+                                <p>Italia DCX Technology</p>
+                                <p class="p-0"><strong>IAM Solution Specialist</strong></p>
 
-                    </div>
+                                <!-- button -->
+                                <button type="button" id="boxComuneDiMilano" class="btn custom-tooltip-milano"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip"
+                                    data-bs-title="Progettazione, sviluppo, gestione e supporto dell’infrastruttura IDM, AM e personalizzazione dei flussi approvativi per conto di Italia DCX Technology.">
+                                    Scopri di piu'...
+                                </button>
 
-                    <!-- box paragraph -->
-                    <div class="text-center mt-5">
-
-                        <!-- box paragraph -->
-                        <p>Italia DCX Technology</p>
-                        <p class="p-0"><strong>IAM Solution Specialist</strong></p>
-
-                        <!-- button -->
-                        <button type="button" id="boxComuneDiMilano" class="btn custom-tooltip-milano"
-                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
-                            data-bs-title="Progettazione, sviluppo, gestione e supporto dell’infrastruttura IDM, AM e personalizzazione dei flussi approvativi per conto di Italia DCX Technology.">
-                            Scopri di piu'...
-                        </button>
-
-                    </div>
-
-                </div>
-
-
-                <!-- box Eni Plenitude -->
-                <div class="col-12 d-flex justify-content-center gap-2">
-
-
-                    <div>
-
-                        <!-- date -->
-                        <div class="text-center box-date-experience">
-                            <p class="p-0">Dic 2021 - Mar 2024</p>
-                        </div>
-
-                        <!-- box circle -->
-                        <div class="d-flex flex-column align-items-center">
-
-                            <!-- circle -->
-                            <div class="circle circle-eni">
-                                <h2 class="circle-title circle-title-eni">
-                                    <span>IAM</span>
-                                </h2>
-                            </div>
-
-                            <!-- vertical line -->
-                            <div class="d-flex text-center" style="height: 200px;">
-                                <div class="vr"></div>
                             </div>
 
                         </div>
 
-                    </div>
 
-                    <!-- box paragraph -->
-                    <div class="text-center mt-5">
+                        <!-- box Eni Plenitude -->
+                        <div class="col-12 d-flex justify-content-center gap-2">
 
-                        <!-- box paragraph -->
-                        <p>ENI Plenitude</p>
-                        <p class="p-0"><strong>IAM Solution Specialist</strong></p>
 
-                        <!-- button -->
-                        <button type="button" id="boxEni" class="btn custom-tooltip-eni" data-bs-toggle="tooltip"
-                            data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Supporto di 2° livello, manutenzione e monitoraggio del sistema ApiGateway per conto di ENI Plenitude.
+                            <div>
+
+                                <!-- date -->
+                                <div class="text-center box-date-experience">
+                                    <p class="p-0">Dic 2021 - Mar 2024</p>
+                                </div>
+
+                                <!-- box circle -->
+                                <div class="d-flex flex-column align-items-center">
+
+                                    <!-- circle -->
+                                    <div class="circle circle-eni">
+                                        <h2 class="circle-title circle-title-eni">
+                                            <span>IAM</span>
+                                        </h2>
+                                    </div>
+
+                                    <!-- vertical line -->
+                                    <div class="d-flex text-center" style="height: 200px;">
+                                        <div class="vr"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- box paragraph -->
+                            <div class="text-center mt-5">
+
+                                <!-- box paragraph -->
+                                <p>ENI Plenitude</p>
+                                <p class="p-0"><strong>IAM Solution Specialist</strong></p>
+
+                                <!-- button -->
+                                <button type="button" id="boxEni" class="btn custom-tooltip-eni"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="Supporto di 2° livello, manutenzione e monitoraggio del sistema ApiGateway per conto di ENI Plenitude.
 Gestione dell'intero ciclo di vita di un'API.">
-                            Scopri di piu'...
-                        </button>
+                                    Scopri di piu'...
+                                </button>
 
-                    </div>
-
-                </div>
-
-
-                <!-- box Interroll -->
-                <div class="col-12 d-flex justify-content-center gap-2">
-
-
-                    <div>
-
-                        <!-- date -->
-                        <div class="text-center box-date-experience">
-                            <p class="p-0">Ott 2022 - Mar 2023</p>
-                        </div>
-
-                        <!-- box circle -->
-                        <div class="d-flex flex-column align-items-center">
-
-                            <!-- circle -->
-                            <div class="circle circle-interroll">
-                                <h2 class="circle-title circle-title-interroll">
-                                    <span>IAM</span>
-                                </h2>
-                            </div>
-
-                            <!-- vertical line -->
-                            <div class="d-flex text-center" style="height: 200px;">
-                                <div class="vr"></div>
                             </div>
 
                         </div>
 
-                    </div>
 
-                    <!-- box paragraph -->
-                    <div class="text-center mt-5">
-
-                        <!-- box paragraph -->
-                        <p>Interroll</p>
-                        <p class="p-0"><strong>IAM Solution Specialist</strong></p>
-
-                        <!-- button -->
-                        <button type="button" id="boxinterroll" class="btn custom-tooltip-interroll"
-                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
-                            data-bs-title="Progettazione, sviluppo, gestione e supporto dell’infrastruttura IDM e personalizzazione dei flussi approvativi per conto di Interroll.">
-                            Scopri di piu'...
-                        </button>
-
-                    </div>
-
-                </div>
+                        <!-- box Interroll -->
+                        <div class="col-12 d-flex justify-content-center gap-2">
 
 
-                <!-- box stage -->
-                <div class="col-12 d-flex justify-content-center gap-2">
+                            <div>
 
-                    <div>
+                                <!-- date -->
+                                <div class="text-center box-date-experience">
+                                    <p class="p-0">Ott 2022 - Mar 2023</p>
+                                </div>
 
-                        <!-- date -->
-                        <div class="text-center box-date-experience">
-                            <p class="p-0">Feb 2021 - Nov 2021</p>
-                        </div>
+                                <!-- box circle -->
+                                <div class="d-flex flex-column align-items-center">
 
-                        <!-- box circle -->
-                        <div class="d-flex flex-column align-items-center">
+                                    <!-- circle -->
+                                    <div class="circle circle-interroll">
+                                        <h2 class="circle-title circle-title-interroll">
+                                            <span>IAM</span>
+                                        </h2>
+                                    </div>
 
-                            <!-- circle -->
-                            <div class="circle circle-stage-vantea">
-                                <h2 class="circle-title circle-title-stage-vantea">
-                                    <span>ST</span>
-                                </h2>
+                                    <!-- vertical line -->
+                                    <div class="d-flex text-center" style="height: 200px;">
+                                        <div class="vr"></div>
+                                    </div>
+
+                                </div>
+
                             </div>
 
-                            <!-- vertical line -->
-                            <div class="d-flex text-center" style="height: 200px;">
-                                <div class="vr"></div>
-                            </div>
+                            <!-- box paragraph -->
+                            <div class="text-center mt-5">
 
-                            <!-- horizontal line -->
-                            <div class="d-flex">
-                                <div class="horizontal-row"></div>
+                                <!-- box paragraph -->
+                                <p>Interroll</p>
+                                <p class="p-0"><strong>IAM Solution Specialist</strong></p>
+
+                                <!-- button -->
+                                <button type="button" id="boxinterroll" class="btn custom-tooltip-interroll"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip"
+                                    data-bs-title="Progettazione, sviluppo, gestione e supporto dell’infrastruttura IDM e personalizzazione dei flussi approvativi per conto di Interroll.">
+                                    Scopri di piu'...
+                                </button>
+
                             </div>
 
                         </div>
 
-                    </div>
 
-                    <!-- box paragraph -->
-                    <div class="text-center mt-5">
+                        <!-- box stage -->
+                        <div class="col-12 d-flex justify-content-center gap-2">
 
-                        <!-- box paragraph -->
-                        <p>Vantea SMART</p>
-                        <p class="p-0"><strong>IAM Solution Specialist</strong></p>
-                        <p class="p-0"><strong>Stage</strong></p>
+                            <div>
 
-                    </div>
+                                <!-- date -->
+                                <div class="text-center box-date-experience">
+                                    <p class="p-0">Feb 2021 - Nov 2021</p>
+                                </div>
 
-                </div>
+                                <!-- box circle -->
+                                <div class="d-flex flex-column align-items-center">
 
-                <!-- box description -->
-                <div class="col-12 py-5">
+                                    <!-- circle -->
+                                    <div class="circle circle-stage-vantea">
+                                        <h2 class="circle-title circle-title-stage-vantea">
+                                            <span>ST</span>
+                                        </h2>
+                                    </div>
 
-                    <!-- paragraph -->
-                    <p class="text-center">
-                        Esperienza pluriennale nella progettazione, sviluppo e gestione di soluzioni Identity and Access
-                        Management (IAM) per aziende leader nel settore. <br>
-                        Ho lavorato a stretto contatto con team tecniciper analizzare requisiti, sviluppare
-                        workflows personalizzati, integrare sistemi eterogenei e garantire la massima sicurezza. <br>
-                        Competenze chiave: <strong>#ForgeRock</strong>,
-                        <strong>#SailpointIdentityIQ</strong>, <strong>#Elasticsearch</strong>,
-                        <strong>#APIgateway</strong>, <strong>#Java</strong>, <strong>#JavaScript</strong>,
-                        <strong>#Bash</strong>, <strong>#IDM</strong>,
-                        <strong>#IAM</strong>, <strong>#Cybersecurity</strong> e <strong>#DevOps</strong>.
-                    </p>
+                                    <!-- vertical line -->
+                                    <div class="d-flex text-center" style="height: 200px;">
+                                        <div class="vr"></div>
+                                    </div>
 
-                </div>
+                                    <!-- horizontal line -->
+                                    <div class="d-flex">
+                                        <div class="horizontal-row"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- box paragraph -->
+                            <div class="text-center mt-5">
+
+                                <!-- box paragraph -->
+                                <p>Vantea SMART</p>
+                                <p class="p-0"><strong>IAM Solution Specialist</strong></p>
+                                <p class="p-0"><strong>Stage</strong></p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- box description -->
+                        <div class="col-12 py-5">
+
+                            <!-- paragraph -->
+                            <p class="text-center">
+                                Esperienza pluriennale nella progettazione, sviluppo e gestione di soluzioni Identity
+                                and
+                                Access
+                                Management (IAM) per aziende leader nel settore. <br>
+                                Ho lavorato a stretto contatto con team tecniciper analizzare requisiti, sviluppare
+                                workflows personalizzati, integrare sistemi eterogenei e garantire la massima sicurezza.
+                                <br>
+                                Competenze chiave: <strong>#ForgeRock</strong>,
+                                <strong>#SailpointIdentityIQ</strong>, <strong>#Elasticsearch</strong>,
+                                <strong>#APIgateway</strong>, <strong>#Java</strong>, <strong>#JavaScript</strong>,
+                                <strong>#Bash</strong>, <strong>#IDM</strong>,
+                                <strong>#IAM</strong>, <strong>#Cybersecurity</strong> e <strong>#DevOps</strong>.
+                            </p>
+
+                        </div>
+
+                    </swiper-slide>
+
+                    <!-- swiper slide ospedale garbagnate -->
+                    <swiper-slide>
+
+                        <!-- title -->
+                        <div class="col-12 text-center pb-4">
+                            <h3>Ospedale Garbagnate Milanese</h3>
+                        </div>
+
+                        <!-- box ospedale -->
+                        <div class="col-12 d-flex justify-content-center gap-2">
+
+
+                            <div>
+
+                                <!-- date -->
+                                <div class="text-center box-date-experience">
+                                    <p class="p-0">Mag 2018 - Giu 2018</p>
+                                </div>
+
+                                <!-- box circle -->
+                                <div class="d-flex flex-column align-items-center">
+
+                                    <!-- circle -->
+                                    <div class="circle circle-milano">
+                                        <h2 class="circle-title circle-title-milano">
+                                            <span>SD</span>
+                                        </h2>
+                                    </div>
+
+                                    <!-- vertical line -->
+                                    <div class="d-flex text-center" style="height: 200px;">
+                                        <div class="vr"></div>
+                                    </div>
+
+                                    <!-- horizontal line -->
+                                    <div class="d-flex">
+                                        <div class="horizontal-row"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- box paragraph -->
+                            <div class="text-center mt-5">
+
+                                <!-- box paragraph -->
+                                <p>CED Hospital</p>
+                                <p class="p-0"><strong>SD Service Desk</strong></p>
+
+                                <!-- button -->
+                                <button type="button" id="boxComuneDiMilano" class="btn custom-tooltip-milano"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip"
+                                    data-bs-title="Supporto Service Desk nel reparto CED dell'ospedale di Garbagnate Milanese.">
+                                    Scopri di piu'...
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <!-- box description -->
+                        <div class="col-12 py-5">
+
+                            <!-- paragraph -->
+                            <p class="text-center">
+
+                                Durante il mio stage presso l'ufficio CED dell'Ospedale di Garbagnate Milanese, ho
+                                collaborato
+                                attivamente con il team tecnico, contribuendo alla risoluzione di guasti hardware e
+                                software.<br>
+                                In particolare, mi sono occupato d' installazione di software, configurazione di reti e
+                                assistenza agli
+                                utenti.<br>
+                                Queste attività mi hanno permesso di migliorare l'efficienza dei sistemi informatici
+                                dell'ospedale e la comunicazione con il cliente.<br>
+                                Competenze chiave: <strong>#Comunicazione</strong>, <strong>#Networking</strong>
+                            </p>
+
+                        </div>
+
+                    </swiper-slide>
+
+                </swiper-container>
+
+            </div>
+
+
 
 
             </div>
