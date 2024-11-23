@@ -1,0 +1,35 @@
+@media (max-width: 400px) {
+
+    body {
+        background-color: aliceblue;
+    }
+
+    /* body calculator */
+    #bodyCalculator {
+        height: auto;
+        width: 90%;
+    }
+
+
+    /* text output */
+    #paragraphOutput {
+        font-size: 6.25vw;
+        font-family: "Host Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+        text-align: right;
+        padding-right: 5vw;
+        padding-top: 5vw;
+    }
+
+    /* button input*/
+    button {
+        height: 17vw;
+        width: 17vw;
+        font-size: 7.5vw;
+
+    }
+
+}

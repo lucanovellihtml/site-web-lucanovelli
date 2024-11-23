@@ -1,0 +1,45 @@
+/* body */
+body {
+    background-color: aliceblue;
+}
+
+/* body calculator */
+#bodyCalculator {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+}
+
+
+/* section output */
+#sectionOutput {
+    height: 70px;
+}
+
+/* text output */
+#paragraphOutput {
+    font-size: 28px;
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 12px;
+}
+
+/* button input*/
+button {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow: var(--bs-box-shadow);
+    border-color: rgba(var(--bs-light-rgb), var(--bs-border-opacity));
+    --bs-border-opacity: 0.1;
+    font-size: 35px;
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
