@@ -39,6 +39,11 @@ swiper-slide img {
     object-fit: cover;
 }
 
+#swiperProject,
+.card-body-custom {
+    max-height: 470px;
+}
+
 /* animation logo loading */
 .animation-circolare {
     animation-name: animazioneLogoCircolare;
