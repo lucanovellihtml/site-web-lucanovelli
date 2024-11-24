@@ -203,3 +203,11 @@ swiper-slide {
     font-size: 16px;
     background-color: #fcfcfd;
 }
+
+/* custom skills section formation */
+.custom-skills {
+    background-color: #e5e7eb;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 20%;
+}
