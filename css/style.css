@@ -40,6 +40,25 @@ swiper-slide img {
 }
 
 
+/* list menu button main */
+.custom-button-list-menu-main {
+    padding: 10px 18px;
+    border-radius: 50px;
+    height: 56px;
+    min-width: 56px;
+    transition: 3s;
+}
+
+.hide {
+    display: none;
+}
+
+li button:hover>.hide {
+    display: block;
+}
+
+
+
 /* animation logo loading */
 .animation-circolare {
     animation-name: animazioneLogoCircolare;
